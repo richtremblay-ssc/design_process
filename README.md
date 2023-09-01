@@ -43,7 +43,4 @@ flowchart TD
   Feature-Request("<b><u>Feature Request</b></u>")
   Feature-Proposal("<b><u>Feature Proposal</b></u>")
   Feature-Design("<b><u>Feature Design</b></u>")
-  click Feature-Request "./1_feature_request.md" "Feature request template"
-  click Feature-Proposal "./2_feature_proposal.md" "Feature proposal template"
-  click Feature-Design "./3_feature_design_brief.md" "Feature design template"
 ```
