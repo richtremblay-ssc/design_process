@@ -34,11 +34,14 @@ flowchart TD
   Design-Governance -- proceed to implementation --> Create-PBIs
   Design-Governance -- do not proceed --> Stop
 
-  Create-PBIs --> Assign-to-Release
-  Assign-to-Release --> Backlog-Refinement --> Sprint-Planning --> Implement --> Sprint-Review
+  subgraph traditional_agile
+    Create-PBIs --> Assign-to-Release
+    Assign-to-Release --> Backlog-Refinement --> Sprint-Planning --> Implement --> Sprint-Review
 
-  Sprint-Review -- Approved --> Close-Feature --> Stop
-  Sprint-Review -- Not Approved --> Sprint-Planning
+    Sprint-Review -- Approved --> Close-Feature
+    Sprint-Review -- Not Approved --> Sprint-Planning
+  end
+  Close-Feature --> Stop
   
   Feature-Request("<b><u>Feature Request</b></u>")
   Feature-Proposal("<b><u>Feature Proposal</b></u>")
