@@ -1,5 +1,10 @@
 # Process Overview
 
+Draft back of the napkin process WIP.  Just ideation.
+
+```
+TODO: Align Gates to real things (people, process, governance).....
+```
 
 ```mermaid
 flowchart TD
@@ -34,5 +39,11 @@ flowchart TD
 
   Sprint-Review -- Approved --> Close-Feature --> Stop
   Sprint-Review -- Not Approved --> Sprint-Planning
-
+  
+  Feature-Request("<b><u>Feature Request</b></u>")
+  Feature-Proposal("<b><u>Feature Proposal</b></u>")
+  Feature-Design("<b><u>Feature Design</b></u>")
+  click Feature-Request "./1_feature_request.md" "Feature request template"
+  click Feature-Proposal "./2_feature_proposal.md" "Feature proposal template"
+  click Feature-Design "./3_feature_design_brief.md" "Feature design template"
 ```
