@@ -20,6 +20,10 @@ So that [reason for the story]
 
 ## Design Explanation
 
+## Security Design / Security Considerations
+
+## Operational Considerations
+
 ## Architecture Decisions Made
 
 |Num|Description|Name|
