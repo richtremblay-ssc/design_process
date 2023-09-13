@@ -34,7 +34,6 @@ So that [reason for the story]
 
 - *list of decisions that need to be made still, who is expected to make them, and an impact statement*
 
-
 ## Proposed Work Plan
 
 *list of PBI/tasks in a bullet list estimated as needed to implement design with estimates*
