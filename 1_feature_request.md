@@ -58,6 +58,12 @@ CloudOps->>Client: TA DA !!
 > **Guiding Principle:** 
 > The LZ should be seen as an enabler for an Application DevOps team.  From their perspective the product should: accelerate the deployment of secure application infrastructure in a light-touch manner and wherever possible focus on self-service over direct interaction with SSC.
 
+## Summary of Key Requirements
+
+### Functional Requirements
+
+### Non-Functional Requirements
+
 ## Cloud Strategy Input
 
 *to be completed with Strategy team*
@@ -75,6 +81,8 @@ CloudOps->>Client: TA DA !!
 *Example: The SSC CaC team has a parliamentary deadline to SA&A their solution and this requires our LZ to support Profile 3.  Delays in getting this feature deployed have a huge impact for SSC.  With this in mind, this is a **HIGH** priority*
 
 ## Success Criteria
+
+*what is going to be the key measures of success when evaluating the initial implementation of this feature*
 
 ## Status
 
